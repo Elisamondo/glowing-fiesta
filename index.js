@@ -3,7 +3,7 @@ const app = express();
 
 app.get("/", (req, res) => {
     console.log(req)
-
+    console.warn(req)
   res.send("Express on Vercel")
 });
 
